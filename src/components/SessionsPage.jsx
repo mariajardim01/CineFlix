@@ -1,13 +1,17 @@
 import Title from "./Title"
-import Movies from "./Movies"
+import Sessions from "./Sessions"
 import styled from "styled-components"
 
-export default function MoviesPage (){
+export default function SessionsPage(){
     return(
+        <>
         <Page>
-        <Title text="Em Cartaz"></Title>
-        <Movies></Movies>
+       <Title text="Selecione o horário"></Title>
+       <Sessions></Sessions>
         </Page>
+
+        
+        </>
     )
 }
 
@@ -18,8 +22,8 @@ height: 100%;
 box-sizing: border-box;
 display: flex;
 flex-direction: column;
-padding-left:10vw ;
-padding-right: 10vw;
+padding-left:5vw ;
+padding-right: 5vw;
 align-items: center;
 
     
