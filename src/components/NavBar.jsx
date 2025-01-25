@@ -25,7 +25,7 @@ z-index: 3;
     display: flex;
     align-content: center;
     align-items: center;
-    
+    text-align: center;
     justify-content: center;
    
     
