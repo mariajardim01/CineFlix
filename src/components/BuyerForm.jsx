@@ -30,7 +30,7 @@ export default function BuyerForm ({CPF,setCPF,name,setName,seats}){
         const value = e.target.value.replace(/\D/g, ""); // Remove tudo que não for número
         let formattedCPF = value;
     
-        // Aplica a formatação
+       
         if (value.length > 3 && value.length <= 6) {
           formattedCPF = value.replace(/(\d{3})(\d+)/, "$1.$2");
         } else if (value.length > 6 && value.length <= 9) {
@@ -39,7 +39,7 @@ export default function BuyerForm ({CPF,setCPF,name,setName,seats}){
           formattedCPF = value.replace(/(\d{3})(\d{3})(\d{3})(\d+)/, "$1.$2.$3-$4");
         }
     
-        setCPF(formattedCPF); // Atualiza o estado com o CPF formatado
+        setCPF(formattedCPF); 
       };
     
     

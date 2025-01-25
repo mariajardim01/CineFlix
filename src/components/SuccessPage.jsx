@@ -2,10 +2,13 @@ import Title from "./Title"
 import styled from "styled-components"
 import Button from "./Button"
 import Line from "./Line"
+import { useNavigate } from "react-router-dom"
 
 
 
 export default function SuccessPage({ name, CPF, selectedSeats, movieName, sessionDate, sessionTime }){
+    const navigate = useNavigate(); 
+
     
     return(
         <>
@@ -24,7 +27,7 @@ export default function SuccessPage({ name, CPF, selectedSeats, movieName, sessi
             <Line></Line>
             {selectedSeats.map((seat)=>{
                 return(
-                   <h1>{`Assento ${seat}`}</h1>
+                   <h1 key={seat}>{`Assento ${seat}`}</h1>
                 )
             })}
             
@@ -38,7 +41,7 @@ export default function SuccessPage({ name, CPF, selectedSeats, movieName, sessi
             
         </Info>
        </Informations>
-       <Button text="Voltar para tela inicial"></Button>
+       <Button text="Voltar para tela inicial" onClick={() => {console.log("clicando no botão") ;navigate("/")}}></Button>
        
         </Page>
 
