@@ -12,6 +12,7 @@ export default function MoviesPage (){
 }
 
 const Page = styled.div`
+margin-top: 10vh;
 background-color: #212226;
 min-height: 100vh;
 height: 100%;

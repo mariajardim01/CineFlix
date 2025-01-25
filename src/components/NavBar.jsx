@@ -16,7 +16,11 @@ export default function NavBar(){
 }
 
 const Header = styled.div`
+position: fixed;
+top: 0;
+z-index: 3;
     height: 10vh;
+    width: 100vw;
     background-color:#EE897F ;
     display: flex;
     align-content: center;
@@ -26,6 +30,7 @@ const Header = styled.div`
 `
 
 const Logo = styled(Link)`
+
     display: flex;
     align-items: center;
     justify-content: center;

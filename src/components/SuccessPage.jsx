@@ -51,6 +51,7 @@ export default function SuccessPage({ name, CPF, selectedSeats, movieName, sessi
 }
 
 const Page = styled.div`
+margin-top: 10vh;
 background-color: #212226;
 min-height: 90vh;
 height: 100%;

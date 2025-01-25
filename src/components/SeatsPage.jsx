@@ -20,6 +20,7 @@ export default function SeatsPage({setName, name, setCPF, CPF, selectedSeats, se
 }
 
 const Page = styled.div`
+margin-top: 10vh;
 background-color: #212226;
 min-height: 90vh;
 height: 100%;
