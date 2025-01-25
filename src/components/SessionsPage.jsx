@@ -6,8 +6,10 @@ export default function SessionsPage(){
     return(
         <>
         <Page>
-       <Title text="Selecione o horário"></Title>
-       <Sessions></Sessions>
+       <Title text="Selecione o horário" color="white"></Title>
+       <Sessions>
+        
+       </Sessions>
         </Page>
 
         

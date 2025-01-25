@@ -1,23 +1,37 @@
 import logoIMg from "../assets/logoImage.png"
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 
 export default function NavBar(){
     return(
-        <Header>
-        <img src={logoIMg}></img>
-        <h1>CineFlix</h1>
+        <>
+        <Header >
+            <Logo to="/">
+            <img src={logoIMg}></img>
+            <h1>CineFlix</h1>
+            </Logo>
         </Header>
+        </>
     )
 }
 
 const Header = styled.div`
     height: 10vh;
     background-color:#EE897F ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
     
+`
+
+const Logo = styled(Link)`
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1vw;
+    text-decoration: none;
+    width: fit-content;
     h1{
         font-family: "Raleway", serif;
         font-size: xx-large;
@@ -25,7 +39,7 @@ const Header = styled.div`
         color:#FADBC5;
     }
     img{
-        height: 50%;
+        height: 5vh;
         
     }
 `

@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
-export default function Title({text}) {
+export default function Title({text,color}) {
     return(
-        <TitlePage>
+        <TitlePage color={color}>
         
         {text}
         
@@ -12,7 +12,7 @@ export default function Title({text}) {
 
 const TitlePage = styled.div`
     font-family: "Sarala", serif; 
-    color: white;
+    color: ${(props)=>props.color};
     font-size: x-large;
     height: 10vh;
     font-weight: 400;

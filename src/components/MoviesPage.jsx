@@ -5,7 +5,7 @@ import styled from "styled-components"
 export default function MoviesPage (){
     return(
         <Page>
-        <Title text="Em Cartaz"></Title>
+        <Title text="Em Cartaz" color="white"></Title>
         <Movies></Movies>
         </Page>
     )
