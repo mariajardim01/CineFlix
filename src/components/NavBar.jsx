@@ -24,6 +24,8 @@ z-index: 3;
     background-color:#EE897F ;
     display: flex;
     align-content: center;
+    align-items: center;
+    
     justify-content: center;
    
     
