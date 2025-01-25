@@ -50,6 +50,9 @@ O **CineFlix** é um sistema para reserva de assentos em cinemas. Escolha o film
  <img src="https://github.com/user-attachments/assets/6a711711-f1a6-4fb2-ab96-1541a21dd9da" alt="HTML5"  height="500" />     
 
 ---
+### Referências 📚
 
+Para validar o formato do CPF, utilizamos o seguinte recurso(obrigada Marcos Castro!):
+- [Gist: Validação de CPF](https://gist.github.com/marcoscastro/7887900ceebe9e223dce)
 
 Aproveite o CineFlix e faça suas reservas de forma rápida e prática! 😃
